@@ -16,7 +16,7 @@
     <%= f.text_field :name %><br>
   </div>
 
-  
+
   <div class="checkbox">
     <%= f.label Tags %><br>
     <%= f.collection_check_boxes(:tag_id, Tag.all, :id, :name) %>
@@ -24,5 +24,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
-  
+
 <% end %>
