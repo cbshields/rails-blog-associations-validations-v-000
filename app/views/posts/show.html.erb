@@ -9,7 +9,7 @@
 
 <h3>Tags:</h3>
 <% @post.tags.each do |tag| %>
-    <li><%= tag.name %></li><br>
+    <li><%= tag.name %></li>
     <% end %>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
